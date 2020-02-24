@@ -4,7 +4,7 @@ we want to draw a rectangle like this
 
 example1
 
-XXXXXX
+XXXXXX 
 XXXXXX
 XXXXXX
 XXXXXX
