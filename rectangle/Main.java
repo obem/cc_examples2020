@@ -26,6 +26,14 @@ OOOOOO
 public class Main {
 
     public static void main(String[] args) {
+
+        int[][] multiArray = new int[10][20] {{4, 5}, {8, 9}};
+
+        for(int i = 0; i < multiArray.length; i++) {
+            for(int j = 0; j < multiArray[i].length; j++){
+                System.out.println("1. Dimension: " + multiArray[i] + " 2. Dimension: " + multiArray[i][j]);
+            }
+        }
         // example 1
         int rows = 5; // define the number of rows
         int columns = 6; // define the number of columns
