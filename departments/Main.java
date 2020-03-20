@@ -8,8 +8,8 @@ public class Main {
 	                                        Vorstand
 	                          /                 |                   \
 	                    Einkauf              Vertrieb                Revision
-	                    /       \                                   /
-	            Einkauf EU      Einkauf USA                 Vertrieb EU
+	                    /       \                    \
+	            Einkauf EU      Einkauf USA           Vertrieb EU
 	                /
 	    Einkauf Italien
 	           /
