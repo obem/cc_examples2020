@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Offers methods to fetch, delete, update and insert cars. Also stores a car list.
  */
 public class CarStore {
-    private DatabaseConnector dbConnector = new DatabaseConnector("jdbc:mysql://localhost:3307/car_example?user=root");
+    private DatabaseConnector dbConnector = new DatabaseConnector("jdbc:mysql://localhost:3306/car_example?user=root");
     private ArrayList<Car> cars = new ArrayList<>();
 
     private static CarStore instance = null;
